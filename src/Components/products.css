@@ -1,0 +1,38 @@
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.inline-text {
+  color: black;
+  font-family: monospace;
+}
+
+.min {
+  max-height: 220px;
+  min-height: 220px;
+  max-width: 400px;
+  /* min-width: 400px; */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  font-family: cursive;
+}
+
+.htitle {
+  font-family: cursive;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
